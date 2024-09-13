@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_topic_topics",
+  "info": {
+    "displayName": "topic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Topic": {
+      "type": "string"
+    },
+    "Content": {
+      "displayName": "Content",
+      "type": "component",
+      "repeatable": false,
+      "component": "course-topic.content"
+    }
+  }
+}
